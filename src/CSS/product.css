@@ -1,0 +1,92 @@
+.contenedorImagen {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.info {
+     text-align: center;
+     width: 70%;
+}
+
+img {
+     height: 28em;
+     
+}
+
+.datos {
+     width: 70%;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+
+.titulo {
+     text-shadow: 0px 8px 13px rgba(88,88,88,0.31);
+     width: 100%;
+     font-size: 4em;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+     color: #393042;
+}
+
+.precio {
+     font-size: 2em;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+     color: #393042;
+}
+
+
+.contenedorDescripcion {
+     padding: 1.2em;
+}
+
+p {
+     color: #303030;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+     line-height: 2em;
+}
+
+.contenedorEspecificaciones {
+     width: 90%;
+     margin: auto;
+}
+
+#botonCompra {
+     margin: 2em;
+     background-color: transparent;
+     border-radius: 5px;
+     border: 1px solid #393042;
+     color: #393042;
+     width: 12em;
+     height: 3em;
+     transition: .5s all ease-in;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+}
+
+#botonCompra:hover {
+     background-color: #393042;
+     color: #fafafa;
+     cursor: pointer;
+}
+
+.contenedorExtras {
+     width: 60%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 2em;
+}
+
+span {
+     color: #2e223a;
+     font-family: 'Montserrat', sans-serif;
+     font-size: .8em;
+     font-weight: 500;
+}
+
